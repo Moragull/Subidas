@@ -1,13 +1,17 @@
-# Ignorar todos los ejecutables
+# Ignorar archivos ejecutables
 *.exe
-.bin
-git rm --cached *.exe
-invertir.exe
-prueba.exe
+*.bin
 
-# También recomiendo añadir:
+# Ignorar archivos de sistema
 .DS_Store       # Archivos de macOS
 .thumbs.db      # Archivos de Windows
-node_modules/   # Si trabajas con JavaScript
-__pycache__/    # Si trabajas con Python
-*.pyc
+
+# Ignorar carpetas de dependencias
+node_modules/   # Si usas JavaScript
+__pycache__/    # Si usas Python
+*.pyc           # Archivos compilados de Python
+
+# Ignorar archivos específicos (opcional)
+invertir.exe
+prueba.exe
+tabulacion.exe
