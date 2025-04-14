@@ -1,6 +1,9 @@
 # Ignorar todos los ejecutables
-.exe
+*.exe
 .bin
+git rm --cached *.exe
+invertir.exe
+prueba.exe
 
 # También recomiendo añadir:
 .DS_Store       # Archivos de macOS
