@@ -1,0 +1,10 @@
+# Ignorar todos los ejecutables
+.exe
+.bin
+
+# También recomiendo añadir:
+.DS_Store       # Archivos de macOS
+.thumbs.db      # Archivos de Windows
+node_modules/   # Si trabajas con JavaScript
+__pycache__/    # Si trabajas con Python
+*.pyc
